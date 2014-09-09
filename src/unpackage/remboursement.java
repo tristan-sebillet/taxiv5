@@ -140,7 +140,7 @@ public class MaClasse {
 							}
 							//Aller retour en semaine de jour pour heure > 1
 							else{
-								System.out.println("Veuillez saisir le nb km parcouru :");
+								System.out.println("Veuillez saisir le nombre de km parcouru :");
 								int nbKm = slam.nextInt();
 								double montantRemb = priseEnCharge[i] + (nbKm * tarifKmArJs[i]) + (heurePar * tarifhoraireJs[i]);
 								System.out.println("Le remboursement est de " + montantRemb+" €.");
